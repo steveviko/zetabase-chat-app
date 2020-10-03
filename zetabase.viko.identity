@@ -1,0 +1,5 @@
+{
+ "id": "48e2afe1-cd48-462f-af7d-7dbdc2d5102c",
+ "pub_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM264oYv2v3xRI/mhhDBT7XxvOxej\n6Z8STKrOJBi0kF3M/cYBwHqhkVwxrCilOKqR0syhzI3OHU9RNccvU8/Vlw==\n-----END PUBLIC KEY-----\n",
+ "priv_key": "-----BEGIN PRIVATE KEY-----\nMHcCAQEEIB2bDCfm90LLYvivQ3N4+uKfSDMF2QshugG9T15M2S1goAoGCCqGSM49\nAwEHoUQDQgAEM264oYv2v3xRI/mhhDBT7XxvOxej6Z8STKrOJBi0kF3M/cYBwHqh\nkVwxrCilOKqR0syhzI3OHU9RNccvU8/Vlw==\n-----END PRIVATE KEY-----\n"
+}

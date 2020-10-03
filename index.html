@@ -1,0 +1,99 @@
+<html>  
+    <head>  
+        <title>Chat Application using Zetabase</title>  
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>  
+    <body>  
+        <div class="container">
+   <br />
+   
+   <h3 align="center">Chat Application </a></h3><br />
+   <br />
+   <div class="row ">
+    <div class="panel panel-primary panel-body col-sm-5 " >
+              <div class="panel-heading">Chat Application signUp</div>
+            <div class="panel-body">
+            <form method="post">
+                <p class="text-danger" id="signup-feedback"><!--error message--> </p>
+                <div class="form-group">
+                <label>Enter Username</label>
+                <input type="text" name="username" id="signup-id" class="form-control" required />
+                </div>
+                <div class="form-group">
+                  <label>Enter Email</label>
+                  <input type="email" name="username" id="signup-email" class="form-control" required />
+                  </div>
+                  <div class="form-group">
+                    <label>Enter Mobile Number</label>
+                    <input type="text" name="username" id="signup-mobile" class="form-control" required />
+                    </div>
+                <div class="form-group">
+                <label>Enter Password</label>
+                <input type="password" name="password" id="signup-pass" class="form-control" required />
+                </div>
+                <div class="form-group">
+                <input type="submit" name="login" id="submit-signup" class="btn btn-info" value="SignUp" />
+                </div>
+
+                <div class="form-group" id="confirm-code" style="display: none">
+                  <label>Enter confirmation Code</label>
+                  <input type="text"id="signup-code"  class="form-control" required />
+                  <a href="#" id="submit-code">Submit confirmation code</a>
+                </div>
+              
+            </form>
+          </div>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="panel panel-primary panel-body col-sm-5 " >
+      <div class="panel-heading">Chat Application Login</div>
+    <div class="panel-body">
+    <form method="post">
+        <p class="text-danger" id="signup-feedback"><!--error message--> </p>
+        <div class="form-group">
+        <label>Enter Username</label>
+        <input type="text" name="username" id="signin-id" class="form-control" required />
+        </div>
+        <div class="form-group">
+        <label>Enter Password</label>
+        <input type="password" name="password" id="signin-pass" class="form-control" required />
+        </div>
+        <div class="form-group">
+        <input type="submit" name="login"id="submit-signin" class="btn btn-info" value="Login" />
+        </div>
+    </form>
+  </div>
+</div>
+   </div>
+   <div class="row">
+    <div class="panel panel-primary panel-body col-sm-5 " >
+      <div class="panel-heading"><p>Latest Messages:</p></div>
+    <div class="panel-body">
+
+    <form method="post">
+        <p class="text-danger" id="signup-feedback"><!--error message--> </p>
+        <p id="content">&nbsp;</p>
+        <div class="form-group">
+        <label>Enter message</label>
+        <input type="text" name="messageText" id="msg-text"  class="form-control" required />
+        </div>
+        
+        <div class="form-group">
+        <input type="submit" name="messageSubmit" id="submit-msg" class="btn btn-info" value="send" />
+        </div>
+    </form>
+  </div>
+</div>
+
+</div>
+  </div>
+  <!-- This includes Zetabase and injects the `Zb` variable into your environment. -->
+<script src="https://zetabase.io/static/assets/js/zetabase-web-latest.js"  charset="utf-8" ></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="./script.js"  charset="utf-8" ></script>
+    </body>  
+</html>
